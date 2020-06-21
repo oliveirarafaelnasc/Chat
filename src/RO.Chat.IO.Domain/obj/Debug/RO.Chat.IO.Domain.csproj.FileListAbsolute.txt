@@ -1,0 +1,12 @@
+C:\ROTestes\RO.Chat.IO\src\RO.Chat.IO.Domain\bin\Debug\RO.Chat.IO.Domain.dll
+C:\ROTestes\RO.Chat.IO\src\RO.Chat.IO.Domain\bin\Debug\RO.Chat.IO.Domain.pdb
+C:\ROTestes\RO.Chat.IO\src\RO.Chat.IO.Domain\obj\Debug\RO.Chat.IO.Domain.csprojAssemblyReference.cache
+C:\ROTestes\RO.Chat.IO\src\RO.Chat.IO.Domain\obj\Debug\RO.Chat.IO.Domain.csproj.CoreCompileInputs.cache
+C:\ROTestes\RO.Chat.IO\src\RO.Chat.IO.Domain\obj\Debug\RO.Chat.IO.Domain.dll
+C:\ROTestes\RO.Chat.IO\src\RO.Chat.IO.Domain\obj\Debug\RO.Chat.IO.Domain.pdb
+C:\Users\olive\Desktop\RO.Chat.IO\src\RO.Chat.IO.Domain\bin\Debug\RO.Chat.IO.Domain.dll
+C:\Users\olive\Desktop\RO.Chat.IO\src\RO.Chat.IO.Domain\bin\Debug\RO.Chat.IO.Domain.pdb
+C:\Users\olive\Desktop\RO.Chat.IO\src\RO.Chat.IO.Domain\obj\Debug\RO.Chat.IO.Domain.csproj.CoreCompileInputs.cache
+C:\Users\olive\Desktop\RO.Chat.IO\src\RO.Chat.IO.Domain\obj\Debug\RO.Chat.IO.Domain.dll
+C:\Users\olive\Desktop\RO.Chat.IO\src\RO.Chat.IO.Domain\obj\Debug\RO.Chat.IO.Domain.pdb
+C:\Users\olive\Desktop\RO.Chat.IO\src\RO.Chat.IO.Domain\obj\Debug\RO.Chat.IO.Domain.csprojAssemblyReference.cache

@@ -1,0 +1,232 @@
+﻿.bd-navbar {
+    background-color: #008ad4
+}
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+h6 {
+    margin-bottom: 0;
+}
+
+
+footer{
+    background-color: #0078d4;
+    color: white;
+}
+
+
+.container {
+   /* max-width: 1170px;
+    margin: auto;*/
+}
+
+.item-active {
+    background-color: #f0f8ff !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.container-principal {
+    padding: 0 0 50px 0;
+}
+
+.container-chat {
+    border: 1px solid #c4c4c4;
+    clear: both;
+    overflow: hidden;
+}
+
+.container-esquerda {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    border-right: 1px solid #c4c4c4;
+}
+
+.header-pesquisa {
+    padding: 10px 29px 10px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.caixa-pesquisa {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    /*    padding:*/
+}
+
+
+.caixa-pesquisa input {
+    border: 1px solid #cdcdcd;
+    border-width: 0 0 1px 0;
+    width: 80%;
+    padding: 2px 0 4px 6px;
+    background: none;
+}
+
+    .caixa-pesquisa input:focus {
+        outline: none;
+    }
+
+
+
+
+.caixa-pesquisa .input-grupo button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    padding: 0;
+    color: #707070;
+    font-size: 18px;
+}
+
+.caixa-pesquisa .input-grupo {
+    margin: 0 0 0 -27px;
+}
+
+.caixa-input-grupo {
+    width: 100%;
+    text-align: center;
+}
+
+
+.container-usuario {
+    height: 550px;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+.top_spac {
+    margin: 20px 0 0;
+}
+
+
+
+
+
+.recent_heading h4 {
+    color: #05728f;
+    font-size: 21px;
+    margin: auto;
+}
+
+
+
+
+
+.active_chat {
+    background: #ebebeb;
+}
+
+.caixa-recebendo-msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+.recebida-msg {
+    width: 57%;
+}
+.recebida-msg p {
+    background: #f1ecec none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #646464;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.hora-msg {
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    margin:  0 0 10px 0;
+}
+
+
+
+.container-direita {
+    float: left;
+    padding: 30px 15px 0 25px;
+    width: 60%;
+}
+
+.enviou-msg p {
+    background: #3ebde3 none repeat scroll 0 0;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.caixa-saida-msg {
+    overflow: hidden;
+    margin: 26px 0 26px;
+}
+
+.enviou-msg {
+    float: right;
+    width: 46%;
+}
+
+.input_msg_write input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #4c4c4c;
+    font-size: 15px;
+    min-height: 48px;
+    width: 90%;
+    max-width: 90%;
+}
+
+.input_msg_write input:focus {
+    outline: none;
+}
+
+.type_msg {
+    border-top: 1px solid #c4c4c4;
+    position: relative;
+}
+
+.msg_send_btn {
+    background: #05728f none repeat scroll 0 0;
+    border: medium none;
+    /*border-radius: 50%;*/
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 60px;
+}
+
+
+
+.msg_history {
+    height: 516px;
+    overflow-y: auto;
+}
+
+

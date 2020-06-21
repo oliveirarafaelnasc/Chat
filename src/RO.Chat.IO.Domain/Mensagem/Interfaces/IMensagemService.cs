@@ -1,0 +1,18 @@
+﻿using RO.Chat.IO.Domain.Mensagem.Entities;
+using System;
+using System.Collections.Generic;
+
+namespace RO.Chat.IO.Domain.Mensagem.Interfaces
+{
+    public interface IMensagemService : IDisposable
+    {
+        Grupo AdicionarGrupo(Grupo grupo);
+        List<Grupo> ObterTodosGrupos();
+        Grupo ObterGrupoPorId(int id_Grupo);
+        Entities.Mensagem AdicionarMensagem(Entities.Mensagem mensagem);
+        List<Entities.Mensagem> ObterMensagemUsuario(Guid idUsuarioConversa, Guid idUsuarioConectado);
+        List<Entities.Mensagem> ObterMensagemGrupo(int id_Grupo);
+
+
+    }
+}

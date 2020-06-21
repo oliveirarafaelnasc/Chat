@@ -1,0 +1,24 @@
+﻿using RO.Chat.IO.Web.App_Start;
+using RO.Chat.IO.Web.AutoMapper;
+using System.Web.Mvc;
+using System.Web.Optimization;
+using System.Web.Routing;
+
+namespace RO.Chat.IO.Web
+{
+    public class MvcApplication : System.Web.HttpApplication
+    {
+        protected void Application_Start()
+        {
+            AreaRegistration.RegisterAllAreas();
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //RouteTable.Routes.MapHubs();
+
+            System.Web.Helpers.AntiForgeryConfig.UniqueClaimTypeIdentifier =
+           System.Security.Claims.ClaimTypes.NameIdentifier;
+
+        }
+    }
+}

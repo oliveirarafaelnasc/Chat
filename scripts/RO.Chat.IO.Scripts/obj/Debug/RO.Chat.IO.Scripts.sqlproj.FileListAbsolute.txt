@@ -1,0 +1,12 @@
+C:\ROTestes\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\bin\Debug\RO.Chat.IO.Scripts.dacpac
+C:\ROTestes\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\bin\Debug\RO.Chat.IO.Scripts.dll
+C:\ROTestes\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\bin\Debug\RO.Chat.IO.Scripts.pdb
+C:\ROTestes\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\obj\Debug\RO.Chat.IO.Scripts.sqlprojAssemblyReference.cache
+C:\ROTestes\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\obj\Debug\RO.Chat.IO.Scripts.dll
+C:\ROTestes\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\obj\Debug\RO.Chat.IO.Scripts.pdb
+C:\Users\olive\Desktop\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\bin\Debug\RO.Chat.IO.Scripts.dacpac
+C:\Users\olive\Desktop\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\bin\Debug\RO.Chat.IO.Scripts.dll
+C:\Users\olive\Desktop\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\bin\Debug\RO.Chat.IO.Scripts.pdb
+C:\Users\olive\Desktop\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\obj\Debug\RO.Chat.IO.Scripts.sqlprojAssemblyReference.cache
+C:\Users\olive\Desktop\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\obj\Debug\RO.Chat.IO.Scripts.dll
+C:\Users\olive\Desktop\RO.Chat.IO\scripts\RO.Chat.IO.Scripts\obj\Debug\RO.Chat.IO.Scripts.pdb

@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "Bate papo";
+}
+
+@section scripts {
+    <script src="~/Scripts/knockout-3.5.1.js"></script>
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.4.1.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script src="~/Scripts/ro_Chat.js"></script>
+    <script src="~/Scripts/toastr.min.js"></script>
+}
+
+<div class="container mt-3">
+
+    <div class="container-principal">
+
+        <div class="container-chat ">
+
+            <!-- lado esquerdo usuarios e grupos -->
+            <div class="container-esquerda">
+                <div class="header-pesquisa">
+                    <input class="btn btn-primary btn-sm" type="button" value="+" title="Adicionar novo grupo" data-toggle="modal" data-target="#id_adicionar_grupo" >
+                    <div class="caixa-pesquisa">
+
+                        <div class="caixa-input-pesquisa">
+                            <input type="text" class="caixa-pesquisa" placeholder="Buscar" data-bind="textInput:query"> 
+                            <span class="input-grupo">
+                                <button type="button">  </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-usuario better-scrollbar">
+                    <ul class="list-group" id="id_lista_usuarios" data-bind="foreach: usuariosFiltro" style="cursor:pointer;">
+                        <li class="list-group-item" data-bind="attr: { id: $data.id , 'data-grupo': $data.ehGrupo }">
+                            <h6>
+                                <strong class="list-group-item-heading" data-bind="text: $data.nome_usuario">
+                                </strong>
+                                <small class="text-muted" data-bind="text: $data.nome_chave"></small>
+                            </h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- lado direito mensagens -->
+            <div class="container-direita">
+
+                <div class="msg_history better-scrollbar">
+
+                    <div data-bind="foreach: mensagens">
+                        <div data-bind="css:      {  'caixa-saida-msg': $data.userSelf() !== 0 ,'caixa-recebendo-msg': $data.userSelf() === 0  }">
+                            <div data-bind="css:  {  'enviou-msg': $data.userSelf() !== 0,'recebida-msg': $data.userSelf() === 0 }  ">
+                                <p data-bind="html: $data.msg"></p>
+                                <span class="hora-msg" data-bind="html:$data.dataMensagem"> </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="type_msg">
+                    <div class="input_msg_write">
+                        <input type="text" class="write_msg" placeholder="Mensagem" data-bind="value:mensagem, valueUpdate: 'afterkeydown'" />
+                        <button class="msg_send_btn" type="button" id="enviar_Mensagem">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="modal fade" id="id_adicionar_grupo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Adicionar novo grupo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Nome do grupo:</label>
+                            <input type="text" class="form-control" id="id_nome_grupo">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary" id="incluir_grupo">Adicionar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
